@@ -1,0 +1,144 @@
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fef6e4;
+    color: #4a4a4a;
+  }
+
+  h1{
+    font-family: 'Dancing Script', cursive;
+    color: #d4a373;
+  }
+  h2,h3 {
+    font-family: 'Dancing Script', cursive; 
+    color: #4a4a4a;
+  }
+  a{
+    color: #e9c8cc;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #d4a373
+  }  
+  header {
+    background-color: #f1e4d1;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  nav a {
+    font-family: 'Nunito', sans-serif;
+    color: #4a4a4a;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #deb286;
+    ;
+    border-radius: 5px;
+  }
+  
+  main {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  
+  footer {
+    background-color: #f1e4d1;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.9em;
+    color: #7a6e5d;
+  }
+ 
+ 
+ .button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #f1e4d1;
+  color: #4a4a4a;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  margin: 30px auto 80px; 
+  display: block;
+  text-align: center;
+  width: fit-content;
+}
+
+
+
+  .button:hover {
+    background-color: #deb286;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+  }
+ 
+  .bar {
+    width: 100%;
+    height: 12px;
+    background-color: #ddd;
+    border-radius: 6px;
+  }
+  
+  .niv {
+    height: 100%;
+    background-color: #d4a373;
+    border-radius: 6px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #f4f4f4;
+    font-family: bold;
+    font-size: 16px;
+}
+.blog{
+  display: flex;
+  align-items: center;
+  background-color: #fef6e4;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px;
+  margin: 20px;
+}
+
+.blog_image {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.blog-text {
+  max-width: 600px;
+  font-family: 'Nunito', sans-serif;
+  color: #333;
+}
+
